@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 3%;
+    background-color: #000000;
+    color: #FFF; 
+}
+
+.botao {
+    background-color: rgb(255, 203, 4);
+    color: black;
+    border-style: none;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.titulo {
+    color: #FFF; 
+}
+
+h1 {
+    text-align: center;
+    color: #FFF; 
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 5% 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #222; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    color: #FFF; 
+}
+
+th {
+    background-color: rgb(255, 203, 4);
+    color: rgb(0, 0, 0); 
+}
+
+tr:nth-child(even) {
+    background-color: #444; 
+}
+
+tr:nth-child(odd) {
+    background-color: #555; 
+}
+
+tr:hover {
+    background-color: #666; 
+}
+
+.tabelaEspaco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoVoltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botaoVoltar:hover {
+    transform: scale(1.05);
+}
+
+.botaoVoltar:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 2%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    table {
+        width: 90%; 
+        margin: 2% 0;
+    }
+
+    th, td {
+        padding: 8px; 
+    }
+
+    .botaoVoltar {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9rem; 
+    }
+
+    .tabelaEspaco {
+        flex-direction: column; 
+        justify-content: flex-start; 
+        gap: 20px; 
+    }
+}

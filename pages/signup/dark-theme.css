@@ -1,0 +1,162 @@
+
+.body{
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    width:175%;
+    height: 85%;
+    border-style: solid;
+    border-color: #59015c;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color: #59015c;
+    
+}
+
+.texto1{
+    width: 100%;
+    height: 16%;
+    background-color: #59015c;
+    font-size: 210%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+}
+
+.texto2{
+    width: 100%;
+    height:5%;
+    background-color: #59015c;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+    color: #FFFF;
+} 
+
+.info{
+    height: 50%;
+    width: 100%;
+    background-color: #59015c;
+}
+
+
+.user{
+    width:60%;
+    height: 18%;
+    background-color: #fcdc29;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+}
+.user1{
+    background-color: #59015c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+}
+.email{
+    width:60%;
+    height: 18%;
+    background-color: #fcdc29;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.email1{
+    background-color: #59015c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.password{
+    width:60%;
+    height: 18%;
+    background-color: #fcdc29;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.password1{
+    background-color: #59015c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.password2{
+    width:60%;
+    height: 18%;
+    background-color: #fcdc29;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.password21{
+    background-color: #59015c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.signup{
+    height: 70px;
+    width: 100%;
+    background-color: #59015c;
+    border-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+.botao{
+    width:70%;
+    height: 70%;
+    background-color: #d83ef7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    font-size: 140%;
+}
+
+.texto3{
+
+    width: 100%;
+    height:7%;
+    background-color: #59015c;
+    font-size:110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+}

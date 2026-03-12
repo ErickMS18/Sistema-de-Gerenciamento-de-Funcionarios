@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="login.css"> 
+        <script src="login.js" defer></script> 
+    </head>
+    <body>
+        <div class="areaMaior">
+            <div class="areaImg">
+                <img src="media/crazy cat logo.png">
+            </div>
+            <div class="areaLogin">
+                <form id="form-login">
+                    <div class="loginTitulo"> 
+                        <h1>Login</h1>
+                    </div>
+                    <div class="loginCorpo">
+                        <div class="loginUsuario">
+                            <h3> Usuário </h3> <br>
+                            <input type="text" name="usuario" id="usuario"> 
+                        </div>
+                        <div class="loginSenha">
+                            <h3> Senha </h3> <br>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+                    </div>
+                    <div class="loginBotao">
+                        <button onclick="Login()" type="button" > Entrar </button>
+                        <a href="pages/signup/signup.html"><button type="button"> Cadastre-se </button></a>
+                    </div>
+                    <div id="error-message" style="color: red;"></div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+

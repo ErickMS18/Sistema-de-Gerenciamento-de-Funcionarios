@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 3%;
+    background-color: #FFFF;
+}
+
+.botao{
+    background-color: rgb(255, 203, 4);
+    color: black;
+    border-style: none;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+table {
+    width: 100%; 
+    max-width: 800px; 
+    border-collapse: collapse;
+    margin: 5% auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: rgb(255, 203, 4);
+    color: rgb(0, 0, 0); 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #ddd; 
+}
+
+.tabelaEspaco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoVoltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.botaoVoltar:hover {
+    transform: scale(1.05); 
+}
+
+.botaoVoltar:active {
+    transform: scale(0.98); 
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 2%;
+    }
+
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    table {
+        width: 100%; 
+        max-width: 100%; 
+        margin: 2% auto; 
+        padding-left: 5%; 
+        padding-right: 5%; 
+    }
+
+    th, td {
+        padding: 8px; 
+    }
+
+    .botaoVoltar {
+        width: 100%;
+        padding: 10px; 
+        font-size: 0.9rem; 
+        padding: 8px 16px; 
+    }
+}

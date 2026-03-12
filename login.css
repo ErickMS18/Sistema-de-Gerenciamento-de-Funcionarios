@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 2%; 
+}
+
+input {
+    width: 100%; 
+    padding: 2%;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    width: 25%; 
+    height: auto; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #ffc304; 
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.areaMaior{
+    width: 60%;
+    height: 80%;
+    display: flex;
+}
+
+.areaImg{
+    background-color: rgb(255, 203, 4);
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaLogin{
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginTitulo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginCorpo {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: flex-start;
+    padding-left: 10%; 
+    text-align: left;
+}
+
+.loginUsuario, .loginSenha {
+    width: 80%; 
+}
+
+.loginBotao{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+a {
+    display: inline-block; 
+    text-decoration: none; 
+    
+}
+
+a button {
+    cursor: pointer;
+    width: 115%; 
+    height: auto;
+    padding: 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc304;
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+}
+
+
+a .loginBotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .areaMaior {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .areaImg, .areaLogin {
+        width: 100%;
+        height: auto;
+    }
+
+    .loginTitulo, .loginCorpo, .loginBotao {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    button {
+        cursor: pointer; 
+        width: 25%;
+        height: 50%;
+    }
+}

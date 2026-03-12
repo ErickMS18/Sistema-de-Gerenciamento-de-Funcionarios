@@ -1,0 +1,157 @@
+.body{
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    width:175%;
+    height: 85%;
+    border-style: solid;
+    border-color: #f8c63c;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color: #f8c63c;
+    margin-left: -40%;
+    
+}
+
+.texto1{
+    width: 100%;
+    height: 16%;
+    background-color: #f8c63c;
+    font-size: 210%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto2{
+    width: 100%;
+    height:5%;
+    background-color: #f8c63c;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+} 
+
+.info{
+    height: 50%;
+    width: 100%;
+    background-color: #f8c63c;
+}
+
+
+.user{
+    width:60%;
+    height: 18%;
+    background-color: #a827fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+}
+.user1{
+    background-color: #f8c63c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.email{
+    width:60%;
+    height: 18%;
+    background-color: #a827fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.email1{
+    background-color: #f8c63c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.password{
+    width:60%;
+    height: 18%;
+    background-color: #a827fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.password1{
+    background-color: #f8c63c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.password2{
+    width:60%;
+    height: 18%;
+    background-color: #a827fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.password21{
+    background-color: #f8c63c;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.signup {
+    height: 70px;
+    width: 100%; /* Largura total para centralizar dentro do bloco */
+    background-color: #f8c63c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+.botao{
+    width:70%;
+    height: 70%;
+    background-color: #d83ef7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    font-size: 140%;
+}
+
+.texto3{
+
+    width: 100%;
+    height:7%;
+    background-color: #f8c63c;
+    font-size:110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
